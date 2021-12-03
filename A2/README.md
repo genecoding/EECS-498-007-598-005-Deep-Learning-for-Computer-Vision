@@ -6,15 +6,16 @@ The notebook two_layer_net.ipynb will walk you through implementing a two-layer 
 
 ## Notes
 ### Gradient of SVM loss function
-* [cs231n - Computing the gradient analytically with Calculus](https://cs231n.github.io/optimization-1/#analytic)
+* [cs231n Computing the gradient analytically with Calculus](https://cs231n.github.io/optimization-1/#analytic)
   * ...when you’re implementing this in code you’d simply count the number of classes that didn’t meet the desired margin (and hence contributed to the loss function) and then the data vector xi scaled by this number is the gradient.
 * [Vectorized Implementation of SVM Loss and Gradient Update](https://mlxai.github.io/2017/01/06/vectorized-implementation-of-svm-loss-and-gradient-update.html)
   * some corrections
-    * The coefficent of xi1 is the number of classes that didn't meet the desire margin.
-    * this single class yi requires us to count the number of classes that didn't satisfy the margin condition
-    * 2.jpg: sum along col -> Nx1    
+    * The coefficent of xi1 is the number of classes that **didn't** meet the desire margin.
+    * this single class yi requires us to count the number of classes that **didn't** satisfy the margin condition
+    * 2.jpg: sum along col -> **N**x1    
 
 
 ### Gradient of Softmax loss function
 
 Some Markdown text with <span style="color:blue">some *blue* text</span>.
+<font color="red">要反白的文字<font>
