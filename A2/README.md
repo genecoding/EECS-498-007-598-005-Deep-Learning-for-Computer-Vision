@@ -13,9 +13,9 @@ The notebook two_layer_net.ipynb will walk you through implementing a two-layer 
     * The coefficent of xi1 is the number of classes that **didn't** meet the desire margin.
     * this single class yi requires us to count the number of classes that **didn't** satisfy the margin condition
     * 2.jpg: sum along col -> **N**x1    
-
+* [Derivation of gradient of SVM loss](https://math.stackexchange.com/questions/2572318/derivation-of-gradient-of-svm-loss/2572319)
 
 ### Gradient of Softmax loss function
-
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
-<font color="red">要反白的文字<font>
+* [Logistic classification with cross-entropy](https://peterroelants.github.io/posts/cross-entropy-logistic/)
+* [Classification and Loss Evaluation - Softmax and Cross Entropy Loss](https://deepnotes.io/softmax-crossentropy)
+* [A neural network's softmax classifier loss function: definitions and step-by-step gradient computation](http://bigstuffgoingon.com/blog/posts/softmax-loss-gradient/)
