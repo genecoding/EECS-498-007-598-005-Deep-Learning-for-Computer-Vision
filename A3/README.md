@@ -21,16 +21,16 @@ The notebook convolutional_networks.ipynb will walk you through implementing Con
 > x += -mu * v_prev + (1 + mu) * v # position update changes form
 > ```
 
-Paragraph of Nesterov Momentum from [cs231n](https://cs231n.github.io/neural-networks-3/#sgd), in fact, it skipped a lot details,
-* to see the detail derivation of Nesterov Momentum: 
+Paragraph of Nesterov Momentum from [cs231n](https://cs231n.github.io/neural-networks-3/#sgd), in fact, it skips a lot details,
+* to see the detailed derivation of Nesterov Momentum: 
   * [Nesterov Accelerated Gradient and Momentum](https://jlmelville.github.io/mize/nesterov.html)
-* to see why it coded in this way (it actually takes a detour route): 
-  *
-  *
+* to see why it's coded in this way (it actually takes a detour route): 
+  * [Momentum & Nesterov momentum](https://tensorflow.blog/2017/03/22/momentum-nesterov-momentum/)
+  * [What's the difference between momentum based gradient descent and Nesterov's accelerated gradient descent?](https://stats.stackexchange.com/questions/179915/whats-the-difference-between-momentum-based-gradient-descent-and-nesterovs-acc)
 * although the assignment only asks us to implement vanilla Momentum rather than Nesterov Momentum, I'd like to take a note.：) 
 
 
 ### Backproprogation of CNN
-* [Convolutional Neural Networks(CNN) #4 卷積核的Back propagation](https://www.brilliantcode.net/1670/convolutional-neural-networks-4-backpropagation-in-kernels-of-cnns/)
-* [Convolutional Neural Networks(CNN) #5 特徵圖&偏差值的導數](https://www.brilliantcode.net/1748/convolutional-neural-networks-5-backpropagation-in-feature-maps-biases-of-cnns/)
-* [Convolutional Neural Networks(CNN) #6 Pooling in Backward pass](https://www.brilliantcode.net/1781/convolutional-neural-networks-6-backpropagation-in-pooling-layers-of-cnns/)
+* [Convolutional Neural Networks(CNN) #4 卷積核的Back propagation](https://www.brilliantcode.net/1670/convolutional-neural-networks-4-backpropagation-in-kernels-of-cnns/) (backpropagation of kernel)
+* [Convolutional Neural Networks(CNN) #5 特徵圖&偏差值的導數](https://www.brilliantcode.net/1748/convolutional-neural-networks-5-backpropagation-in-feature-maps-biases-of-cnns/) (backpropagation of feature map & bias)
+* [Convolutional Neural Networks(CNN) #6 Pooling in Backward pass](https://www.brilliantcode.net/1781/convolutional-neural-networks-6-backpropagation-in-pooling-layers-of-cnns/) (backpropagation of pooling)
