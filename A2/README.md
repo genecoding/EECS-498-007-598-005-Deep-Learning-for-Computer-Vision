@@ -6,7 +6,7 @@ The notebook two_layer_net.ipynb will walk you through implementing a two-layer 
 
 ## Notes
 ### Gradient of SVM loss function
-* [cs231n Computing the gradient analytically with Calculus](https://cs231n.github.io/optimization-1/#analytic)
+* [cs231n - Computing the gradient analytically with Calculus](https://cs231n.github.io/optimization-1/#analytic)
   * ...when you’re implementing this in code you’d simply count the number of classes that didn’t meet the desired margin (and hence contributed to the loss function) and then the data vector xi scaled by this number is the gradient.
 * [Vectorized Implementation of SVM Loss and Gradient Update](https://mlxai.github.io/2017/01/06/vectorized-implementation-of-svm-loss-and-gradient-update.html)
   * some corrections
