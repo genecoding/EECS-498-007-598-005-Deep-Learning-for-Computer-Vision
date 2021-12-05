@@ -29,8 +29,15 @@ Paragraph of Nesterov Momentum from [cs231n](https://cs231n.github.io/neural-net
   * [What's the difference between momentum based gradient descent and Nesterov's accelerated gradient descent?](https://stats.stackexchange.com/questions/179915/whats-the-difference-between-momentum-based-gradient-descent-and-nesterovs-acc)
 * although the assignment only asks us to implement vanilla Momentum rather than Nesterov Momentum, I'd like to take a note.：) 
 
-
-### Backproprogation of CNN
+### Backpropagation of CNN
 * [Convolutional Neural Networks(CNN) #4 卷積核的Back propagation](https://www.brilliantcode.net/1670/convolutional-neural-networks-4-backpropagation-in-kernels-of-cnns/) (backpropagation of kernel)
 * [Convolutional Neural Networks(CNN) #5 特徵圖&偏差值的導數](https://www.brilliantcode.net/1748/convolutional-neural-networks-5-backpropagation-in-feature-maps-biases-of-cnns/) (backpropagation of feature map & bias)
 * [Convolutional Neural Networks(CNN) #6 Pooling in Backward pass](https://www.brilliantcode.net/1781/convolutional-neural-networks-6-backpropagation-in-pooling-layers-of-cnns/) (backpropagation of pooling)
+
+### Backpropagation of Batch Normalization
+The assignment ask us to implement backpropagation of batch normalization in two ways: (1) write out a computation graph for batch normalization on paper and propagate gradients backward through intermediate nodes, and (2) work out the derivatives for the batch normalizaton backward pass on paper and simplify as much as possible.
+1. Things become easy after writing out the computation graph. ([source](https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html))
+ ![computation graph](img/BNcircuit.png)
+2. The [paper](https://arxiv.org/abs/1502.03167) had provided the derivatives for the batch normalizaton backward pass actually, to see further simplification: [Deriving the Gradient for the Backward Pass of Batch Normalization](https://kevinzakka.github.io/2016/09/14/batch_normalization/)
+ ![BN derivatives](img/BNderi.png)
+ 
