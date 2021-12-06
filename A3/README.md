@@ -21,23 +21,37 @@ The notebook convolutional_networks.ipynb will walk you through implementing Con
 > x += -mu * v_prev + (1 + mu) * v # position update changes form
 > ```
 
-Paragraph of Nesterov Momentum from [cs231n](https://cs231n.github.io/neural-networks-3/#sgd), in fact, it skips a lot details,
+Paragraph of Nesterov Momentum from [cs231n], in fact, it skips a lot details,
 * to see the detailed derivation of Nesterov Momentum: 
-  * [Nesterov Accelerated Gradient and Momentum](https://jlmelville.github.io/mize/nesterov.html)
+  * [Nesterov Accelerated Gradient and Momentum]
 * to see why it's coded in this way (it actually takes a detour route): 
-  * [Momentum & Nesterov momentum](https://tensorflow.blog/2017/03/22/momentum-nesterov-momentum/)
-  * [What's the difference between momentum based gradient descent and Nesterov's accelerated gradient descent?](https://stats.stackexchange.com/questions/179915/whats-the-difference-between-momentum-based-gradient-descent-and-nesterovs-acc)
+  * [Momentum & Nesterov momentum]
+  * [What's the difference between momentum based gradient descent and Nesterov's accelerated gradient descent?]
 * although the assignment only asks us to implement vanilla Momentum rather than Nesterov Momentum, I'd like to take a note.：) 
 
 ### Backpropagation of CNN
-* [Convolutional Neural Networks(CNN) #4 卷積核的Back propagation](https://www.brilliantcode.net/1670/convolutional-neural-networks-4-backpropagation-in-kernels-of-cnns/) (backpropagation of kernel)
-* [Convolutional Neural Networks(CNN) #5 特徵圖&偏差值的導數](https://www.brilliantcode.net/1748/convolutional-neural-networks-5-backpropagation-in-feature-maps-biases-of-cnns/) (backpropagation of feature map & bias)
-* [Convolutional Neural Networks(CNN) #6 Pooling in Backward pass](https://www.brilliantcode.net/1781/convolutional-neural-networks-6-backpropagation-in-pooling-layers-of-cnns/) (backpropagation of pooling)
+* [Convolutional Neural Networks(CNN) #4 卷積核的Back propagation] (backpropagation of kernel)
+* [Convolutional Neural Networks(CNN) #5 特徵圖&偏差值的導數] (backpropagation of feature map & bias)
+* [Convolutional Neural Networks(CNN) #6 Pooling in Backward pass] (backpropagation of pooling)
 
 ### Backpropagation of Batch Normalization
 The assignment asks us to implement backpropagation of batch normalization in two ways: (1) write out a computation graph for batch normalization on paper and propagate gradients backward through intermediate nodes, and (2) work out the derivatives for the batch normalizaton backward pass on paper and simplify as much as possible.
-1. Things become easy after drawing out the computation graph. ([source](https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html))
-![computation graph](img/BNcircuit.png)  
-2. The [paper](https://arxiv.org/abs/1502.03167) provided the derivatives for the batch normalizaton backward pass though, to see further simplification: [Deriving the Gradient for the Backward Pass of Batch Normalization](https://kevinzakka.github.io/2016/09/14/batch_normalization/)  
-![BN derivatives](img/BNderi.png)
- 
+1. Things become easy after drawing out the computation graph. ([source])  
+![computation graph]
+2. The [paper] provided the derivatives for the batch normalizaton backward pass though, to see further simplification: [Deriving the Gradient for the Backward Pass of Batch Normalization]  
+![BN derivatives]
+
+
+
+[cs231n]: https://cs231n.github.io/neural-networks-3/#sgd
+[Nesterov Accelerated Gradient and Momentum]: https://jlmelville.github.io/mize/nesterov.html
+[Momentum & Nesterov momentum]: https://tensorflow.blog/2017/03/22/momentum-nesterov-momentum/
+[What's the difference between momentum based gradient descent and Nesterov's accelerated gradient descent?]: https://stats.stackexchange.com/questions/179915/whats-the-difference-between-momentum-based-gradient-descent-and-nesterovs-acc
+[Convolutional Neural Networks(CNN) #4 卷積核的Back propagation]: https://www.brilliantcode.net/1670/convolutional-neural-networks-4-backpropagation-in-kernels-of-cnns/
+[Convolutional Neural Networks(CNN) #5 特徵圖&偏差值的導數]: https://www.brilliantcode.net/1748/convolutional-neural-networks-5-backpropagation-in-feature-maps-biases-of-cnns/
+[Convolutional Neural Networks(CNN) #6 Pooling in Backward pass]: https://www.brilliantcode.net/1781/convolutional-neural-networks-6-backpropagation-in-pooling-layers-of-cnns/
+[source]: https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
+[computation graph]: img/BNcircuit.png 
+[paper]: https://arxiv.org/abs/1502.03167
+[Deriving the Gradient for the Backward Pass of Batch Normalization]: https://kevinzakka.github.io/2016/09/14/batch_normalization/
+[BN derivatives]: img/BNderi.png
