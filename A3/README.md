@@ -35,9 +35,9 @@ Paragraph of Nesterov Momentum from [cs231n](https://cs231n.github.io/neural-net
 * [Convolutional Neural Networks(CNN) #6 Pooling in Backward pass](https://www.brilliantcode.net/1781/convolutional-neural-networks-6-backpropagation-in-pooling-layers-of-cnns/) (backpropagation of pooling)
 
 ### Backpropagation of Batch Normalization
-The assignment ask us to implement backpropagation of batch normalization in two ways: (1) write out a computation graph for batch normalization on paper and propagate gradients backward through intermediate nodes, and (2) work out the derivatives for the batch normalizaton backward pass on paper and simplify as much as possible.
+The assignment asks us to implement backpropagation of batch normalization in two ways: (1) write out a computation graph for batch normalization on paper and propagate gradients backward through intermediate nodes, and (2) work out the derivatives for the batch normalizaton backward pass on paper and simplify as much as possible.
 1. Things become easy after drawing out the computation graph. ([source](https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html))
 ![computation graph](img/BNcircuit.png)  
-2. The [paper](https://arxiv.org/abs/1502.03167) had provided the derivatives for the batch normalizaton backward pass though, to see further simplification: [Deriving the Gradient for the Backward Pass of Batch Normalization](https://kevinzakka.github.io/2016/09/14/batch_normalization/)  
+2. The [paper](https://arxiv.org/abs/1502.03167) provided the derivatives for the batch normalizaton backward pass though, to see further simplification: [Deriving the Gradient for the Backward Pass of Batch Normalization](https://kevinzakka.github.io/2016/09/14/batch_normalization/)  
 ![BN derivatives](img/BNderi.png)
  
