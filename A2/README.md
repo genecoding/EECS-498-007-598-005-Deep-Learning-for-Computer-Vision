@@ -16,6 +16,6 @@ The notebook two_layer_net.ipynb will walk you through implementing a two-layer 
 * [Derivation of gradient of SVM loss](https://math.stackexchange.com/questions/2572318/derivation-of-gradient-of-svm-loss/2572319)
 
 ### Gradient of Softmax loss function
+* [cs231n - Computing the Analytic Gradient with Backpropagation](https://cs231n.github.io/neural-networks-case-study/#grad)
 * [Logistic classification with cross-entropy](https://peterroelants.github.io/posts/cross-entropy-logistic/)
 * [Classification and Loss Evaluation - Softmax and Cross Entropy Loss](https://deepnotes.io/softmax-crossentropy)
-* [A neural network's softmax classifier loss function: definitions and step-by-step gradient computation](http://bigstuffgoingon.com/blog/posts/softmax-loss-gradient/)
