@@ -4,7 +4,7 @@ The notebook linear_classifier.ipynb will walk you through implmenting SVM and S
 ### Q2: Two-layer Neural Network
 The notebook two_layer_net.ipynb will walk you through implementing a two-layer neural network-based classifier. Your implementation will go to two_layer_net.py.
 
-## Notes
+## Note
 ### Gradient of SVM loss function
 * [cs231n - Computing the gradient analytically with Calculus](https://cs231n.github.io/optimization-1/#analytic)
   * ...when you’re implementing this in code you’d simply count the number of classes that didn’t meet the desired margin (and hence contributed to the loss function) and then the data vector xi scaled by this number is the gradient.
