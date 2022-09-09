@@ -4,4 +4,4 @@ The notebook variational_autoencoders.ipynb will walk you through the implementa
 ### Q2: Generative Adversarial Networks 
 The notebook generative_adversarial_networks.ipynb will walk you through the implementation of fully-connected and convolutional generative adversarial networks on the MNIST dataset.
 
-## Notes
+## Note
