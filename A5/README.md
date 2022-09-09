@@ -4,7 +4,7 @@ The notebook single_stage_detector_yolo.ipynb will walk you through the implemen
 ### Q2: Two-Stage Detector
 The notebook two_stage_detector_faster_rcnn.ipynb will walk you through the implementation of a two-stage object detector similar to Faster R-CNN (Ren et al, NeurIPS 2015). This will combine a fully-convolutional Region Proposal Network (RPN) and a second-stage recognition network.
 
-## Notes
+## Note
 Read the papers：)
 * [YOLOv2]
 * [YOLOv3]
