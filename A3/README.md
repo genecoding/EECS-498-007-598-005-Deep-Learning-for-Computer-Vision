@@ -4,7 +4,7 @@ The notebook fully_connected_networks.ipynb will walk you through implementing F
 ### Q2: Convolutional Neural Network 
 The notebook convolutional_networks.ipynb will walk you through implementing Convolutional Neural Networks.
 
-## Notes
+## Note
 ### Nesterov Momentum
 > ```python
 > x_ahead = x + mu * v
