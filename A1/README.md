@@ -4,4 +4,4 @@ The notebook pytorch101.ipynb will walk you through the basics of working with t
 ### Q2: k-Nearest Neighbor classifier
 The notebook knn.ipynb will walk you through implementing a kNN classifier. Your implementation will go to knn.py.
 
-## Notes
+## Note
