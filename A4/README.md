@@ -8,7 +8,7 @@ The notebook network_visualization.ipynb will walk you through the use of image 
 ### Q4: Style Transfer
 In the notebook style_transfer.ipynb, you will learn how to create images with the artistic style of one image and the content of another image.
 
-## Notes
+## Note
 ### Attention for RNN
 The [lecture] already explained the evolution of attention for RNN in detail; just note some other introduction of applications:
 * [Attention and Augmented Recurrent Neural Networks]
